@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <ImageView
+            android:layout_width="750px"
+            android:src="@drawable/weixin_millions_share_bg"
+            android:layout_height="1334px"/>
+
+    <ImageView
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_width="120px"
+            android:layout_x="315px"
+            android:layout_y="359px"
+            android:layout_height="120px"/>
+
+    <TextView
+            android:layout_width="227px"
+            android:textColor="#ffffdd97"
+            android:textSize="26px"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:layout_y="504px"
+            android:layout_x="263px"
+            android:text="😂😂🤔😊😳"/>
+
+    <ImageView
+            android:layout_width="216px"
+            android:layout_x="267px"
+            android:layout_y="792px"
+            android:layout_height="216px"
+            android:src="@drawable/temp_weixin_share_qrcode"/>
+
+</AbsoluteLayout>
